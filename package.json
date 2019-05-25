@@ -1,0 +1,17 @@
+{
+  "name": "transpiler",
+  "version": "1.0.0",
+  "description": "basic transpiler from jsx to pure react",
+  "main": "index.js",
+  "scripts": {
+    "react": "npx babel script.js -o script-compiled.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0"
+  },
+  "dependencies": {}
+}
